@@ -1,0 +1,117 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.hero{
+    height:100vh;
+    width: 100%;
+    background-image:url(./image.jpg);
+    background-size: cover;
+    background-position:center;
+}
+.nav{
+    display:flex;
+    /* flex-- Arrange all tags things in same row */
+    align-items: center;
+    justify-content:space-between;
+    /* space between- gives sufficient distance according to tags i.e. same tags material together and different tags elements together*/
+    padding-top: 45px;
+    padding-left:8%;
+    padding-right:8%;
+}
+
+.logo{
+    color:brown;
+    font-size: 50px;
+    letter-spacing: 1px;
+     cursor:pointer;                                    
+      /* to change cursor arrow into hand */
+}
+span{
+    color: yellow;
+}
+.nav ul li{
+    display:inline-block;
+    padding:10px 30px;
+    font-size:20px;
+}
+.nav ul li a{
+    color:white;
+    text-decoration: none;
+}
+.nav ul li a:hover{
+    color:rgb(52, 170, 224);
+}
+.btn{
+    background-color: cadetblue;
+    color:white;
+    text-decoration: none;
+    border:2px solid transparent;
+    font-weight: bold;
+    padding:10px 25px;
+    border-radius: 30px;
+    transition: transform 1s;
+    /* provide delay */
+}
+.btn:hover{
+    transform:scale(1.2);
+    /* transform or increase size by scale value on hovering over it */
+}
+.content{
+    position: absolute;
+    /* make anything place over anything */
+    top:50%;
+    left:8%;
+}
+
+h1{
+    color:white;
+    margin:20px 0px 20px;
+    font-size: 70px;
+}
+h3{
+    color:violet;
+    font-size:25px;
+    margin-bottom:50px;
+}
+h4{
+    color:tomato;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.newsletter form{
+    width:400px;
+    max-width:100%;
+    position: relative;
+}
+.newsletter form input:first-child{
+    width: 100%;
+    display:inline-block;
+    padding:14px 130px 14px 15px;
+    border:4px solid rgb(236, 8, 46);
+    border-radius: 20px;
+}
+.newsletter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    border:none;
+    border-radius: 30px;
+    padding:12px 30px;
+    background-color: rgb(133, 141, 173);
+    color: black;
+    top:6px;
+    right:6px;
+}
+.newclass{
+   margin-top:1000px;
+}
+.iconsetting{
+    margin:548px 0px 0px 300px;
+}
+.iconsetting .icons span a i:hover{
+     transition: transform 1s;
+    transform: scale(1.1);
+    background-color:whitesmoke;
+    border-radius: 20px;
+}
